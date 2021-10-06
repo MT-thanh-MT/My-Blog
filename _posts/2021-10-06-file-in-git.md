@@ -45,8 +45,12 @@ Staged Files: Các file bị THAY ĐỔI đã được ĐÁNH DẤU để commit
 Unmodified Files: Khi các file đã được ĐÁNH DẤU sau khi được COMMIT sẽ lại trở về trạng thái ko thay đổi.
 (Do các thay đổi này sau khi được commit sẽ được lưu vào thư mục .git, và chúng ta có thể restore về trạng thái đó bất cứ lúc nào)
 ==> Lúc này khi chúng ta “git status” sẽ không còn thấy các file này nữa.
-![Image](git_commit.png)
+
 ![Image](git_push.png)
+
+![Image](git_commit.png)
+
+
 
 
 
