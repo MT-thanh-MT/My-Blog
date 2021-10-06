@@ -9,11 +9,11 @@
   </a>
   {%- endif -%}
 
-  <!--{%- if social.youtube_user -%}
+  {%- if social.youtube_user -%}
   <a href="https://www.youtube.com/user/{{ social.youtube_user | cgi_escape | escape }}" rel="nofollow">
     <span class="lin-icon-youtube"></span>
   </a>
-  {%- endif -%}-->
+  {%- endif -%}
 
   {%- if social.youtube_channel -%}
   <a href="https://www.youtube.com/c/{{ social.youtube_channel | cgi_escape | escape }}" rel="nofollow">
@@ -25,8 +25,8 @@
   <a href="https://dribbble.com/{{ social.dribbble | cgi_escape | escape }}" rel="nofollow">
     <span class="lin-icon-dribbble"></span>
   </a>
-  {%- endif -%}
--->
+  {%- endif -%}-->
+
   {%- if social.facebook -%}
   <a href="https://www.facebook.com/{{ social.facebook | cgi_escape | escape }}" rel="nofollow">
     <span class="lin-icon-facebook"></span>
@@ -39,7 +39,7 @@
   </a>
   {%- endif -%}
 
- <!-- {%- if social.medium -%}
+  <!--{%- if social.medium -%}
   <a href="https://medium.com/@{{ social.github | cgi_escape | escape }}" rel="nofollow">
     <span class="lin-icon-medium"></span>
   </a>
@@ -67,8 +67,8 @@
   <a href="https://t.me/{{ social.telegram | cgi_escape | escape }}" rel="nofollow">
     <span class="lin-icon-telegram"></span>
   </a>
-  {%- endif -%}
--->
+  {%- endif -%}-->
+
   {%- if social.keybase -%}
   <a href="https://keybase.io/{{ social.keybase | cgi_escape | escape }}" rel="nofollow">
     <span class="lin-icon-keybase"></span>
