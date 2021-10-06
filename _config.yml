@@ -17,12 +17,13 @@ lin:
 
   # generate social links
   social_links:
+    zalo: /0335138102
     twitter: jekyllrb
-    github:  jekyll
+    github:  MT-thanh-MT
     medium:  jekyll
     rss: rss
     dribbble: jekyll
-    facebook: /100038714660739
+    facebook: thanh.risky
     flickr:   jekyll
     instagram: jekyll
     linkedin: jekyll
