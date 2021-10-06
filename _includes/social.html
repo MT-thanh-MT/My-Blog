@@ -28,7 +28,7 @@
   {%- endif -%}
 
   {%- if social.facebook -%}
-  <a href="https://www.facebook.com/profile.php?id=100044067063876{{ social.facebook | cgi_escape | escape }}" rel="nofollow">
+  <a href="https://www.facebook.com/{{ social.facebook | cgi_escape | escape }}" rel="nofollow">
     <span class="lin-icon-facebook"></span>
   </a>
   {%- endif -%}
