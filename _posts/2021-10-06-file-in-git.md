@@ -24,7 +24,7 @@ Tất cả các file ở Local Repo đều ở một trong 2 trạng thái:
 Untracked Files: Các file này dù có thay đổi / thêm / xoá thì git cũng ko quan tâm, vì nó ko nằm trong danh sách theo dõi của nó.
 Khi chúng ta sử dụng lệnh “git status” thì các file này sẽ có title là “Untracked files”
 
-![Image](git_status.png)
+![Image](https://mt-thanh-mt.github.io/thanhmxph18759.github.io/git_status.png)
 
 
 Tracked Files: Những files đã được thêm vào danh sách theo dõi của git được gọi là Tracked Files, những file này khi chúng ta thay đổi / thêm / xoá thì git sẽ nhận biết được điều đó và lưu các thay đổi này lại theo yêu cầu của chúng ta.
@@ -39,16 +39,16 @@ Modified Files: Các file bị THAY ĐỔI
 Staged Files: Các file bị THAY ĐỔI đã được ĐÁNH DẤU để commit
 ==> Các files bị thay đổi sẽ có title “Changes to be committed” khi chúng ta “git status”
 
-![Image](git_add.png)
+![Image](https://mt-thanh-mt.github.io/thanhmxph18759.github.io/git_add.png)
 
 
 Unmodified Files: Khi các file đã được ĐÁNH DẤU sau khi được COMMIT sẽ lại trở về trạng thái ko thay đổi.
 (Do các thay đổi này sau khi được commit sẽ được lưu vào thư mục .git, và chúng ta có thể restore về trạng thái đó bất cứ lúc nào)
 ==> Lúc này khi chúng ta “git status” sẽ không còn thấy các file này nữa.
 
-![Image](git_push.png)
+![Image](https://mt-thanh-mt.github.io/thanhmxph18759.github.io/git_commit.png)
 
-![Image](git_commit.png)
+![Image](https://mt-thanh-mt.github.io/thanhmxph18759.github.io/git_push.png)
 
 
 
