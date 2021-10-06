@@ -5,15 +5,15 @@
 
   {%- if social.zalo -%}
   <a href="https://www.zalo.me{{ social.zalo | cgi_escape | escape }}" rel="nofollow">
-    <span class="lin-icon-zalo"></span>
+    <span class="lin-icon-linkedin"></span>
   </a>
   {%- endif -%}
 
-  {%- if social.youtube_user -%}
+  <!--{%- if social.youtube_user -%}
   <a href="https://www.youtube.com/user/{{ social.youtube_user | cgi_escape | escape }}" rel="nofollow">
     <span class="lin-icon-youtube"></span>
   </a>
-  {%- endif -%}
+  {%- endif -%}-->
 
   {%- if social.youtube_channel -%}
   <a href="https://www.youtube.com/c/{{ social.youtube_channel | cgi_escape | escape }}" rel="nofollow">
@@ -34,7 +34,7 @@
   {%- endif -%}
 
   {%- if social.github -%}
-  <a href="https://github.com/MT-thanh-MT{{ social.github | cgi_escape | escape }}" rel="nofollow">
+  <a href="https://github.com/{{ social.github | cgi_escape | escape }}" rel="nofollow">
     <span class="lin-icon-github"></span>
   </a>
   {%- endif -%}
