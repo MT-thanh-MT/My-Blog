@@ -1,6 +1,6 @@
 title: Thành Mai
 author: GitHub User
-email: your-email@domain.com
+email: mxthanh98@gmail.com
 copyright: © 2019 GitHub User
 description: > # this means to ignore newlines until "show_excerpts:"
   Write an awesome description for your new site here. You can edit this
@@ -13,6 +13,7 @@ lin:
   date_format: "%b %-d, %Y"
 
   # path to the author avatar image
+  
   avatar_path: assets/images/avatar.jpg
 
   # generate social links
